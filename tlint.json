@@ -1,0 +1,10 @@
+{
+  "preset": "laravel",
+  "disabled": ["NoInlineVarDocs", "UseConfigOverEnv", "ImportFacades"],
+  "excluded": [
+      "tests/",
+      "app/Http/Kernel.php",
+      "bootstrap/",
+      "storage/"
+  ]
+}
